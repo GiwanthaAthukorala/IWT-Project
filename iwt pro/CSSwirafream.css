@@ -1,0 +1,30 @@
+h4{
+	text-align: center;
+	text-decoration:underline;
+}
+
+body{
+	background-color:#c793e6;
+	
+}
+.web1{
+	color:#f5b507;
+	text-align: center;
+	
+}
+.one{
+    background-color:#6bc2ed;
+	color:#f50515;
+	border:none;
+	height:74px;
+	width:225px;
+	border-radius: 8px;
+	cursor:pointer
+
+}
+.main{
+	background-color:#c9c5c6;
+	height:75px;
+	width:px;
+	
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>About us Page</title>
+	<link rel="stylesheet" href="styles.css">
+	<style>
+	* {
+            margin:0;
+            padding:0;
+            overflow-x: hidden;
+        }
+     
+
+	  *, *:before, *:after {
+          box-sizing: inherit;
+         }
+        
+		
+		html {
+            scroll-behaviour: smooth;
+			box-sizing: border-box;
+        }
+  
+        
+  
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+						background-color: maroon;
+        }
+  
+        .nav-list {
+            width: 70%;
+            display: flex; 
+        }
+  
+        .nav-list li {
+  
+            list-style: none;
+            padding: 2px 6px;
+        }
+  
+        .nav-list li a {
+  
+            text-decoration: none;
+            color: black;
+        }
+  
+        .nav-list li a:hover {
+            color: black;
+        }
+  
+        .rightNav {
+            width: 50;
+            text-align: right;
+	
+        }
+  
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px black;
+            border-radius: 9px;
+        }
+
+         .btn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px black;
+            border-radius: 8px;
+            background: black;
+            color: black;
+            cursor: pointer;
+        }
+  
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+  
+      
+  
+        .text-footer {
+            text-align: center;
+            padding: 10px 0;
+            font-family:  sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+		body {
+             font-family: Arial, Helvetica, sans-serif;
+             margin: 0;
+             }
+
+         .column {
+         float: left;
+         width: 33.3%;
+         margin-bottom: 16px;
+         padding: 0 8px;
+          }
+
+         .blog {
+          margin: 8px;
+           }
+
+         .about-section {
+         padding: 50px;
+         text-align: center;
+         background-color: maroon;
+         color: black;
+          }
+
+         .contain {
+          padding: 0 16px;
+          }
+		.logo {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+			;
+        }
+  
+        .logo img {
+            width: 100%;
+            border: 2px solid maroon;
+            border-radius: 50px;
+			
+        }
+		
+
+</style>
+
+</head>
+<body>
+<?php include 'cookies.php';?>
+
+
+    <nav class="navbar background">
+        <ul class="nav-list">
+		
+            <li><a href="resturant.html">Home</a></li>
+            <li><a href="cart.html">My cart</a></li>
+            <li><a href="About Us.html">AboutUs</a></li>
+            <li><a href="Contact us.html">Contact Us</a></li>
+            <li><a href="request.html">Request</a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm"><a href="#search">Search</a></button>
+        </div>
+    </nav>
+
+   
+   <div class="about-section">
+  <h1>About Us Page</h1>
+  <p>We are a global leading company about foods since 1990.  </p>
+  <p>First time in Sri Lanka we are providing a service which you can create the recipe and send us.
+  we are here to provide you an excellent service for your food cravings  </p>
+   </div>
+
+   <h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="blog">
+      <img src="images/food.jpg" alt="team" style="width:100%">
+      <div class="contain">
+        <h2>Our Team - Non Management</h2>
+        <p class="title">Team members</p>
+        <p>We are here to provide you our best service.</p>
+        <p>Teammembers@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="blog">
+      <img src="images/management.jpg" alt="Management" style="width:100%">
+      <div class="contain">
+        <h2>Management</h2>
+        <p class="title">Managemnt</p>
+        <p>We are here to provide you a good service by managing.</p>
+        <p>management@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="blog">
+      <img src="images/group.jpg" alt="Culinary staff" style="width:100%">
+      <div class="contain">
+        <h2>Culinary Staff- Non management</h2>
+        <p class="title">Culinary Staff</p>
+        <p>We are here to provide you our best through food preparations and outstanding recipe .</p>
+        <p>culinarystaff@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <h3>Rate Us</h3> 
+ <input type="radio" id="5_stars" name="Rate Us" value="5_stars">
+ <label for="5_stars">★★★★★</label><br>
+ <input type="radio" id="4_stars" name="Rate Us" value="4_stars">
+ <label for="4_stars">★★★★</label><br>
+ <input type="radio" id="3_stars" name="Rate Us" value="3_stars">
+ <label for="3_stars">★★★</label><br>
+  <input type="radio" id="2_stars" name="Rate Us" value="2_stars">
+ <label for="2_stars">★★</label><br>
+  <input type="radio" id="1_star" name="Rate Us" value="1_stars">
+ <label for="1_star">★</label><br> <br>
+
+<div class="logo"><img src="images/logo.png" ></div>
+
+
+ <footer class="background">
+        <p class="text-footer">
+            Copyright ©-All rights are reserved
+        </p>
+  
+    </footer>
+</body>
+  
+</html>

@@ -1,0 +1,376 @@
+h4{
+	text-align: center;
+	text-decoration:underline;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+body{
+	background-image:url("WhatsApp1.jpg");
+
+}
+body::before{
+    content: '';
+    
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background: rgb(173, 173, 173);
+}
+.web1{
+	color:#0722ab;  
+	text-align: center;
+	
+}
+.one{
+    background-color:black;
+	color:#f50515;
+	border:none;
+	height:74px;
+	width:225px;
+	border-radius: 8px;
+	cursor:pointer;
+	font-family:	Algerian, Regular, none;
+	font-weight: bold;
+	font-size: 30px;
+	width: 100%;
+
+}
+.main{
+	height:100%;
+	width:100%;
+	
+}
+.main-a{
+    background-color:#d7dbde;
+    height:100%;
+    width: 100%;
+}
+.menu{
+	background-image:url("WhatsApp1.jpg") ;
+	height:80px;
+	width: 100%;
+
+	
+	
+}
+.home{
+	background-color: black;
+	color: white;
+	border: none;
+	height: 80px;
+	width: 120px;
+	cursor: pointer;
+	font-weight: 800;
+	font-size: x-large;
+	font-family:Montserrat,Medium Italic;
+	text-decoration: none;
+	text-decoration: none;padding: 20px 22px;
+	
+
+}
+.home:hover{
+	background-color:red;
+	color:black;
+
+}
+.signin{
+	background-color: black;
+	color: white;
+	border: none;
+	height: 80px;
+	width: 150px;
+	cursor: pointer;
+	font-weight: 800;
+	font-size: x-large;
+	font-family:Montserrat,Medium Italic;
+	text-decoration: none;
+	text-decoration: none;padding: 20px 22px;
+	
+	
+}
+.signin:hover{
+	background-color:red;
+	color: black;
+}
+.recipemenu{
+	background-color:black ;
+	color: white;
+	border: none;
+	height: 80px;
+	width: 190px;
+	cursor: pointer;
+	font-weight: 800;
+	font-size: x-large;
+	font-family:Montserrat,Medium Italic;
+	text-decoration: none;padding: 20px 22px;
+	
+	
+}
+.recipemenu:hover{
+	background-color:red;
+	color: black;
+
+}
+.recipemenu{
+	overflow: hidden;
+}
+
+.recipemenu-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	width: 100%;
+	left: 0;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.mycart{
+	background-color:black ;
+	color: white;
+	border: none;
+	height: 80px;
+	width: 190px;
+	cursor: pointer;
+	font-weight: 800;
+	font-size: x-large;
+	font-family:Montserrat,Medium Italic;
+	text-decoration: none;
+	text-decoration: none;padding: 20px 22px;
+
+}
+.mycart:hover{
+	background-color: red;
+	color: black;
+}
+
+
+
+
+
+
+
+h3{
+	text-align: center;
+	font-size: 30px;
+	margin:0;
+	padding-top:10px ;
+
+
+}
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0;
+}
+.content{
+	width: 20%;
+	margin:15px;
+	box-sizing: border-box;
+	float:left;
+	text-align: center;
+	border-radius: 20px;
+	cursor: pointer;
+	padding-top: 10px; 
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+	transition: 5s;
+	background: #f9f9f9;
+
+
+}
+.content:hover{
+	box-shadow:0 3px 6px rgba(0,0,0,0.16);
+	transform: translate(0px,-8px);
+
+
+}
+.GG{
+	width:20rem ;
+	height: 20rem;
+	text-align:center;
+	margin: auto;
+	display: block;
+	border-radius: 21px;
+}
+p{
+	font-size: 26px;
+	text-align: center;
+	color:#222f3e ;
+	margin:0;
+
+}
+.buy{
+	text-align: center;
+	font-size: 25px;
+	color:#b1b3b5;
+	width: 100%;
+	padding:15px;
+	border: 0;
+	outline: none;
+	cursor:pointer;
+	margin-top: 5px;
+	background:#f50515;
+}
+.buy:hover{
+	background-color: red;
+	color: black;
+
+}
+.ad{
+	text-align: center;
+	font-size: 25px;
+	color:#b1b3b5;
+	width: 100%;
+	padding:15px;
+	border: 0;
+	outline: none;
+	cursor:pointer;
+	margin-top: 5px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius:20px;
+	background:#f50515;
+}
+.ad:hover{
+	background-color: red;
+	color: black;
+
+}
+
+.contact{
+	background-color:#6b6b6b;
+	color: black;
+	border: #222f3e;
+	height: 75px;
+	width: 150px;
+	cursor: pointer;
+	font-weight: 800;
+	font-size: x-large;
+	margin-left: 400px;
+
+}
+.facebook{
+	background-color:#0d4ebd ;
+	
+	border:none;
+	height: 75px;
+	width: 150px;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: x-large;
+	font-family: 'Poppins', ExtraLight Italic;
+	margin-left: 505px;
+}
+.facebook a{
+	text-decoration: none;
+	color: white;
+}
+.facebook :hover{
+	background-color: white;
+	color: #0d4ebd ;
+
+
+}
+.facebook a:hover{
+	background-color: white;
+	color: #0d4ebd ;
+
+}
+.about{
+	background-color:black ;
+	color: white;
+	border: none;
+	height: 80px;
+	width: 190px;
+	cursor: pointer;
+	font-weight: 800;
+	font-size: x-large;
+	font-family:Montserrat,Medium Italic;
+	text-decoration: none;
+	text-decoration: none;padding: 20px 22px;
+	
+}
+.about:hover{
+	background-color: red;
+	color: black;
+}
+
+.facebook a :hover{
+	background-color: #0d4ebd;
+	color: white;
+}
+.container{
+	
+	background-color: #d7dbde;
+	display: flex;
+	
+	
+
+}
+.search1{
+	width:100% ;
+	max-width: 100%;
+	height: 60px;
+	background: rgba(255,0,0,0.3);
+	display: flex;
+	align-items: center;
+	border-radius: 60px;
+	padding: 10px 20px;
+
+	
+
+}
+.search1 input{
+	width: 250px;
+	background:white;
+   
+	border:0;
+	outline: none;
+	padding: 24px 20px;
+	font-size: 20px;
+	color: black;
+	margin-left: 1300px;
+	border-radius: 10px 20px;
+
+
+
+}
+::placeholder{
+	color:red;
+
+}
+.search1 button img{
+	width: 40px;
+
+
+
+}
+.search1 button{
+	border: 0;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background:white;
+	cursor: pointer;
+}
+.Nm{
+	background-color:black ;
+	color: white;
+	border: none;
+	height: 80px;
+	width: 190px;
+	font-weight: 800;
+	font-size: x-large;
+	font-family:Algerian, Regular;
+	text-decoration: none;
+	text-decoration: none;padding: 20px 22px;
+	cursor: default;
+
+}
+
+
+
+
+
+

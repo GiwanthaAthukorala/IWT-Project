@@ -1,0 +1,205 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="cart.css">
+    </head>
+   
+        <script src="cart.js"></script>
+    
+    <body>
+        
+        <div class="logo "><a href="C:resturant.html"><img src="food good.png" width="125px" height="50px"></a></div>
+        <nav>
+            <ul>
+                <li><a href="resturant.html">Home</a></li>
+                <li><a href="cart.html">My cart</a></li>
+                <li><a href="About Us.html">About us</a></li>
+                <li><a href="Contact us.html">Contact us</a></li>
+                <li><a href="request.html">Request</a></li> 
+                <li class="login"><a href="ndex (2).html">login</a></li> 
+            </ul>
+        </nav>
+        </div>
+        <h2 class="my"><b>#MY CART</b></h2>
+        <div class="small-container cart-page">
+            <table>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Quintity</th>
+                    <th>Sub Totle</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="food.jpg" >
+                        
+                        <div>
+                            <p>food 1</p>
+                            <small>price:rs1200</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="food.jpg" >
+                        
+                        <div>
+                            <p>food 1</p>
+                            <small>price:rs1200</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td></td>
+                </tr>
+                 <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="food.jpg" >
+                        
+                        <div>
+                            <p>food 1</p>
+                            <small>price:rs1200</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td></td>
+                </tr>
+                
+            </table>
+
+        </div>
+        <div class="totle-price totle-table">
+                <table>
+                    <tr>
+                        <td>Sub Totle</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Totle</td>
+                        <td></td>
+                    </tr>
+                </table>
+            <div class="checkbtn">
+            <a href="#" class="button" id="button">proceed to checkout</a>
+            </div> 
+            
+        </div>
+       
+    
+        
+        <div class="popup">
+        
+            
+                
+
+            <div class="container">
+                <img src="close.png" alt="close" class="close">
+            
+            <div class="left">
+                <h3>Billing Address</h3>
+                <form>
+                    Full name
+                    <input type="text" name="" placeholder="Enter name">
+                    Email
+                    <input type="text" name="" placeholder="Enter email">
+                    Address
+                    <input type="text" name="" placeholder="Enter address">
+                    City
+                    <input type="text" name="" placeholder="Enter City">
+                    <div id="zip">
+                        <label>
+                            State
+                            <select>
+                                <option>Choose state...</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                            </select>
+                        </label>
+                        <label>
+                            Zip cade
+                            <input type="number" name="" placeholder="Zip code">
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <h3>Payment</h3>
+                <form>
+                    Accepted card
+                    <br>
+                    <img src="card.jpg" width="100">
+                    <br><br>
+                    Credit card number 
+                    <input type="text" name="" placeholder="Enter card number">
+                    
+                    Exp month
+                    <input type="text" name="" placeholder="Enter month">
+                    <div id="zip">
+                        <label>
+                            Exp year
+                            <select>
+                                <option>Choose year...</option>
+                                <option>2022</option>
+                                <option>2023</option>
+                                <option>2024</option>
+                                <option>2025</option>
+                                <option>2026</option>
+                                <option>2027</option>
+                                <option>2028</option>
+                                <option>2029</option>
+                                <option>2030</option>
+                            </select>
+                        </label>
+                        <label>
+                            CVV
+                            <input type="number" name="" placeholder="CVV">
+                        </label>
+                    </div>
+                </form>
+                <input type="submit" name="" value="Proceed to Checkout">   
+            </div>
+
+        </div>
+    
+    </div>
+    
+ 
+    <script>
+        document.getElementById("button").addEventListener("click", function(){
+            document.querySelector(".popup").style.display = "flex";
+        })
+
+        document.querySelector(".close").addEventListener("click", function(){
+            document.querySelector(".popup").style.display = "none";
+        })
+    </script> 
+
+    
+        
+    
+
+    </body>
+    
+</html>
